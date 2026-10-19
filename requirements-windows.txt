@@ -1,0 +1,4 @@
+ultralytics>=8.4,<9
+numpy>=1.26,<3
+opencv-python>=4.10,<5
+pyrealsense2>=2.56,<3

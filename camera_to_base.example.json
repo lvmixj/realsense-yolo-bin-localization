@@ -1,0 +1,12 @@
+{
+  "calibration_required": true,
+  "source_frame": "camera_color_optical_frame",
+  "target_frame": "robot_base",
+  "translation_base_mm": [0.0, 0.0, 0.0],
+  "rotation_base_from_camera": [
+    [1.0, 0.0, 0.0],
+    [0.0, 1.0, 0.0],
+    [0.0, 0.0, 1.0]
+  ],
+  "_comment": "Replace the placeholder with hand-eye/extrinsic calibration, then set calibration_required to false."
+}

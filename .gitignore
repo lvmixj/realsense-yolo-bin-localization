@@ -1,0 +1,42 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 录包与本地数据
+*.db3
+*.bag
+*.mcap
+outputs/**/images/*
+outputs/**/labels/*
+!outputs/night_bin_labeling_sample/images/*
+!outputs/night_bin_labeling_sample/labels/*
+outputs/**/*.mp4
+
+# 训练产物
+runs/**/weights/
+runs/**/*.cache
+
+# 本地配置（含外参、相机序列号等）
+config/camera_to_base.json
+config/
+RSsetup*.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
+
+# 现场数据和本地检查记录
+outputs/
+artifacts/
+.env
+.env.*
+*.log
